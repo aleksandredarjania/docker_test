@@ -3,7 +3,7 @@
  1. Hello World კონტეინერის გაშვება
 
 docker run hello-world
-![Hello World](screenshots/Screenshot 2026-11-23 173822.png)
+![Hello World](screenshots/Screenshot%202026-11-23%20173822.png)
 
 გავუშვი სატესტო კონტეინერი Docker-ის მუშაობის შესამოწმებლად.
 
