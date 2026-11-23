@@ -35,11 +35,11 @@ docker rm CONTAINER_ID
 
  ნაწილი 2 — Python Docker იმიჯი
 
-1. პროექტის შექმნა 
+1. პროექტის შექმნა ( ეს აპლიკაცია vs code ტერმინატლით შევქმენი უფრო გამიმარტივდა)
+
 mkdir docker-python-app
 cd docker-python-app
-
-შევქმენი სამუშაო საქაღალდე.
+code .
 
  2. Python ფაილის შექმნა
 
