@@ -3,7 +3,8 @@
  1. Hello World კონტეინერის გაშვება
 
 docker run hello-world
-![Hello World](screenshots/Screenshot 2026-11-23 173822.png)
+![Hello World](Screenshot%202026-11-23%20173822.png)
+
 გავუშვი სატესტო კონტეინერი Docker-ის მუშაობის შესამოწმებლად.
 
  2. Ubuntu კონტეინერის გაშვება
@@ -11,32 +12,33 @@ docker run hello-world
 docker run -it ubuntu bash
 
 გავუშვი Ubuntu ინტერაქტიულ რეჟიმში.
-![Ubuntu](screenshots/Screenshot 2026-11-23 173855.png)
+![Ubuntu](Screenshot%202026-11-23%20173855.png)
  3. curl-ის ინსტალაცია
 
 apt update
-![apt update](screenshots/Screenshot 2026-11-23 173950.png)
+![apt update](Screenshot%202026-11-23%20173950.png)
 apt install -y curl
-![curl installation](screenshots/Screenshot 2026-11-23 174053.png)
+![curl installation](Screenshot%202026-11-23%20174053.png)
 
 curl -I https://www.google.com
-![Internet Check](screenshots/Screenshot 2026-11-23 174149.png)
+![Internet Check](Screenshot%202026-11-23%20174149.png)
 დავაყენე curl და შევამოწმე ინტერნეტთან კავშირი.
  4. კონტეინერიდან გამოსვლა
 
 exit
 გამოვედი Ubuntu კონტეინერიდან.
-![Exit Container](screenshots/Screenshot 2026-11-23 174202.png)
+![Exit Container](Screenshot%202026-11-23%20174202.png)
  5. კონტეინერების მართვა
 docker ps -a
-![Container List](screenshots/Screenshot 2026-11-23 174224.png)
+![Container List](Screenshot%202026-11-23%20174224.png)
 
 docker stop CONTAINER_ID
-![Stop Container](screenshots/Screenshot 2026-11-23 174255.png)
-![Stop Result](screenshots/Screenshot 2026-11-23 174323.png)
+![Stop Container](Screenshot%202026-11-23%20174255.png)
+![Stop Result](Screenshot%202026-11-23%20174323.png)
 docker rm CONTAINER_ID
-![Remove Container](screenshots/Screenshot 2026-11-23 174327.png)
-![Container Check](screenshots/Screenshot 2026-11-23 174342.png)
+![Remove Container](Screenshot%202026-11-23%20174327.png)
+
+![Container Check](Screenshot%202026-11-23%20174342.png)
 გამოვიტანე კონტეინერების სია. გაჩერებისა და წაშლის ბრძანებები გამოიყენება საჭიროების შემთხვევაში.
 
  ნაწილი 2 — Python Docker იმიჯი
@@ -46,7 +48,7 @@ docker rm CONTAINER_ID
 mkdir docker-python-app
 cd docker-python-app
 code .
-![Project Creation](screenshots/Screenshot 2026-11-23 181338.png)
+![Project Creation](Screenshot%202026-11-23%20181338.png)
  2. Python ფაილის შექმნა
 
 app.py
@@ -68,22 +70,22 @@ CMD ["python", "app.py"]
  4. იმიჯის აწყობა
 
 docker build -t my-python-app .
-![Docker Build](screenshots/Screenshot 2026-11-23 181411.png)
+![Docker Build](Screenshot%202026-11-23%20181411.png)
 ავაწყვე Docker იმიჯი.
 
  5. კონტეინერის გაშვება
 
 docker run --name my-python-container my-python-app
-![Python Container](screenshots/Screenshot 2026-11-23 181411.png)
+![Python Output](Screenshot%202026-11-23%20181411.png)
 გავუშვი Python აპლიკაცია კონტეინერში.
 
  6. იმიჯის თეგი
 
 docker tag my-python-app my-python-app:v1
 docker images
-![Docker Tag](screenshots/Screenshot 2026-11-23 181754.png)
+![Docker Tag](Screenshot%202026-11-23%20181754.png)
 
-![Docker Images](screenshots/Screenshot 2026-11-23 181723.png)
+[Docker Images](Screenshot%202026-11-23%20181723.png)
 მივანიჭე იმიჯს თეგი და გამოვიტანე იმიჯების სია.
 
  ნაწილი 3 — Docker Volumes
@@ -119,10 +121,11 @@ docker rm volume-container1
 
 docker run -it --name volume-container2 -v my-data-volume:/data ubuntu bash
 
-![Docker Volume](screenshots/Screenshot 2026-11-23 181450.png)
+![Docker Volume](Screenshot%202026-11-23%20181450.png)
 cat /data/test.txt
 
 მეორე კონტეინერიდან შევამოწმე შენახული ფაილი.
 
 
 თითოეული ნაბიჯის შესრულების შედეგები წარმოდგენილია screenshotsსაქაღალდეში.
+
