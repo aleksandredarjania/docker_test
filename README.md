@@ -15,7 +15,9 @@ docker run -it ubuntu bash
  3. curl-ის ინსტალაცია
 
 apt update
+
 apt install -y curl
+
 curl -I https://www.google.com
 
 დავაყენე curl და შევამოწმე ინტერნეტთან კავშირი.
