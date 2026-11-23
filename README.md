@@ -85,7 +85,7 @@ docker tag my-python-app my-python-app:v1
 docker images
 ![Docker Tag](screenshots/Screenshot%202026-11-23%20181754.png)
 
-[Docker Images](screenshots/Screenshot%202026-11-23%20181723.png)
+![Docker Images](screenshots/Screenshot%202026-11-23%20181723.png)
 მივანიჭე იმიჯს თეგი და გამოვიტანე იმიჯების სია.
 
  ნაწილი 3 — Docker Volumes
